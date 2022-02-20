@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy Task Note</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+
+<div class="wrapper">
+    <div class="textcopy_con">
+    <h2>Other Team Email Template</h2>
+    <select name="task_name" id="taskname" onchange="populate(this.id, 'tasktemplate')">
+        <option value="cw">CW</option>
+        <option value="fdg">FDG</option>
+        <option value="design">Design</option>
+        <option value="web2">Web2</option>
+        <option value="dany">Geordany</option>
+    </select>
+    <div class="text-box">
+        <div class="top-title">
+        </div>
+<!-- FOR CW -->
+<textarea spellcheck="false" disabled class="hide-sa" id="tasktemplate">
+
+</textarea>
+<a class="copy-btn">
+    <p>Copy</p> 
+</a>
+</div>
+</div>
+</div>
+
+<script src="./app.js"></script>
+</body>
+</html>
