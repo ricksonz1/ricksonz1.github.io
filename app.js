@@ -13,7 +13,7 @@ let populate = (s1) => {
 
 if(s1.value == "cw") {
 textarea.value = 
-`FOR CW:
+`For CW:
 Task ID:
 Website URL:
        
@@ -24,7 +24,7 @@ Instruction(s):
 Concern(s):`;
 }else if(s1.value == "fdg"){
 textarea.value = 
-`FOR FDG:
+`For FDG:
 Task ID:
 Website URL:
            
@@ -35,7 +35,7 @@ Instruction(s):
 Concern(s):`
 }else if(s1.value == "design"){
 textarea.value = 
-`FOR Design:
+`For Design:
 Task ID:
 Website URL:
            
@@ -46,7 +46,7 @@ Instruction(s):
 Concern(s):`
 }else if(s1.value == "web2"){
 textarea.value = 
-`FOR Web2:
+`For Web2:
 Task ID:
 Website URL:
            
@@ -55,14 +55,21 @@ Instruction(s):
 
 
 Concern(s):`
-}else if(s1.value == "dany"){
+}else if(s1.value == "seo"){
 textarea.value = 
-`FOR Geordany:
+`For SEO:
 Task ID:
 Website URL:
            
+Concern(s):
+Hi team, kindly do SEO related processes. Thanks`
+}else if(s1.value == "webcon"){
+textarea.value = 
+`For Webcon:
+Task ID:
+Website URL:
+          
 Instruction(s):
-           
 
 
 Concern(s):`
