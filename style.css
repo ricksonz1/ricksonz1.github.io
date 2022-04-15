@@ -15,7 +15,7 @@
 
 body { background: #EDF6FF;}
    
-body, select{
+body, select, textarea{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -53,12 +53,12 @@ h2 {text-align: center;font-size: 30px; margin-bottom: 25px;}
 .copy-btn:hover, 
 .copy-btn:focus {
   animation: pulse 1s;
-  box-shadow: 0 0 0 2em transparent;
+  box-shadow: 0 0 0 1em transparent;
   background: #9AA4EC;
 }
 
 @keyframes pulse {
-    0% { box-shadow: 0 0 0 0 #9AA4EC; }
+    0% {box-shadow: 0 0 0 0 #9AA4EC; }
   }
 
 .text-box textarea {
