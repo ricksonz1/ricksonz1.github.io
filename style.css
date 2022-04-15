@@ -49,8 +49,17 @@ h2 {text-align: center;font-size: 30px; margin-bottom: 25px;}
     font-weight: bold;
 }
 
-.copy-btn:hover{background: #9AA4EC;}
-    
+/* .copy-btn:hover{background: #9AA4EC;} */
+.copy-btn:hover, 
+.copy-btn:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+  background: #9AA4EC;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 #9AA4EC; }
+  }
 
 .text-box textarea {
     width: 100%;
