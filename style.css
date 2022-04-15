@@ -39,11 +39,10 @@ h2 {text-align: center;font-size: 30px;
 
 .copy-btn {
     display: block;
-    margin: 60px auto 0;
+    margin: 40px auto 0;
     text-align: center;
-    background-color: #9AA4EC;
-    height: 50px;
-    line-height: 50px;
+    background-color: #6474E5;
+    line-height: 70px;
     color: #fff;
     font-size: 30px;
     text-decoration: none;
@@ -52,7 +51,7 @@ h2 {text-align: center;font-size: 30px;
 }
 
 .copy-btn:hover{
-    background: #6474E5;
+    background: #9AA4EC;
 }
 
 
@@ -86,4 +85,5 @@ display: none;
     border: none;
     background: #fff;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    resize: none;
 }
