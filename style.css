@@ -13,10 +13,8 @@
         position: relative;
 }
 
-body {
-    background: #e6e6e6;
-}
-
+body { background: #EDF6FF;}
+   
 body, select{
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -33,10 +31,8 @@ select {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
-h2 {text-align: center;font-size: 30px;
-    margin-bottom: 25px;
-}
-
+h2 {text-align: center;font-size: 30px; margin-bottom: 25px;}
+   
 .copy-btn {
     display: block;
     margin: 40px auto 0;
@@ -48,42 +44,21 @@ h2 {text-align: center;font-size: 30px;
     text-decoration: none;
     position: relative;
     cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
 }
 
-.copy-btn:hover{
-    background: #9AA4EC;
-}
-
-
-.copy-btn p::before {
-content: 'Copied';
-position: absolute;
-top: -40px;
-background-color: #39ac19;
-font-size: 16px;
-width: 100px;
-height: 30px;
-text-align: center;
-line-height: 30px;
-left: 195px;
-display: none;
-}
-
-.copy-btn .active p::before {
-    display: none;
-}
-
-
-
-
+.copy-btn:hover{background: #9AA4EC;}
+    
 
 .text-box textarea {
     width: 100%;
     min-height: 300px;
     padding: 1em;
-    font-family: 'Source Sans Pro', sans-serif;
     border: none;
     background: #fff;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     resize: none;
+    font-weight: bold;
 }
