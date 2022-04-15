@@ -29,9 +29,10 @@ select {
     background-color: #fff;
     border: none;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    color: #1a1818;
 }
 
-h2 {text-align: center;font-size: 30px; margin-bottom: 25px;}
+h2 {text-align: center;font-size: 30px; margin-bottom: 25px;color: #1a1818;}
    
 .copy-btn {
     display: block;
