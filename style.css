@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
 
 *{
     margin: 0;
@@ -19,7 +18,7 @@ body {
 }
 
 body, select{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 select {
@@ -36,14 +35,13 @@ select {
 
 h2 {text-align: center;font-size: 30px;
     margin-bottom: 25px;
-    font-family: 'Poppins', sans-serif;
 }
 
 .copy-btn {
     display: block;
     margin: 60px auto 0;
     text-align: center;
-    background-color: #0440d4;
+    background-color: #9AA4EC;
     height: 50px;
     line-height: 50px;
     color: #fff;
@@ -54,7 +52,7 @@ h2 {text-align: center;font-size: 30px;
 }
 
 .copy-btn:hover{
-    background: #39ac19;
+    background: #6474E5;
 }
 
 
@@ -84,9 +82,8 @@ display: none;
     width: 100%;
     min-height: 300px;
     padding: 1em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     border: none;
     background: #fff;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    
 }
