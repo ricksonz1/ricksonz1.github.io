@@ -13,7 +13,7 @@ let populate = (s1) => {
 
 if(s1.value == "cw") {
 textarea.value = 
-`For CW:
+`For CWS:
 Task ID:
 Website URL:
        
