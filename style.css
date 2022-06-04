@@ -13,7 +13,7 @@
         position: relative;
 }
 
-body { background: #EDF6FF;}
+body { background: #fffbf0;}
    
 body, select{
     font-family: 'Source Sans Pro', sans-serif;
@@ -38,7 +38,7 @@ h2 {text-align: center;font-size: 30px; margin-bottom: 25px;color: #1a1818;}
     display: block;
     margin: 40px auto 0;
     text-align: center;
-    background-color: #6474E5;
+    background-color: #F6A7C1;
     line-height: 70px;
     color: #fff;
     font-size: 30px;
@@ -54,7 +54,7 @@ h2 {text-align: center;font-size: 30px; margin-bottom: 25px;color: #1a1818;}
 .copy-btn:focus {
   animation: pulse 1s;
   box-shadow: 0 0 0 1em transparent;
-  background: #9AA4EC;
+  background: #F3D1DC;
 }
 
 @keyframes pulse {
