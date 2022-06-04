@@ -21,7 +21,8 @@ Instruction(s):
        
 
 
-Concern(s):`;
+Concern(s):
+Hi team, please mi`
 }else if(s1.value == "fdg"){
 textarea.value = 
 `For FDG:
@@ -32,7 +33,8 @@ Instruction(s):
            
 
 
-Concern(s):`
+Concern(s):
+Hi team, please mi`
 }else if(s1.value == "design"){
 textarea.value = 
 `For Design:
@@ -43,7 +45,8 @@ Instruction(s):
            
    
 
-Concern(s):`
+Concern(s):
+Hi team, please mi`
 }else if(s1.value == "web2"){
 textarea.value = 
 `For Web2:
@@ -54,7 +57,8 @@ Instruction(s):
            
 
 
-Concern(s):`
+Concern(s):
+Hi team, please mi`
 }else if(s1.value == "seo"){
 textarea.value = 
 `For SEO:
@@ -72,7 +76,8 @@ Website URL:
 Instruction(s):
 
 
-Concern(s):`
+Concern(s):
+Hi team, please mi`
 }
 
 
