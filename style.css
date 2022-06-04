@@ -58,7 +58,7 @@ h2 {text-align: center;font-size: 30px; margin-bottom: 25px;color: #1a1818;}
 }
 
 @keyframes pulse {
-    0% {box-shadow: 0 0 0 0 #9AA4EC;}
+    0% {box-shadow: 0 0 0 0 #F3D1DC;}
   }
 
 .text-box textarea {
