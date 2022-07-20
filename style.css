@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 *{
     margin: 0;
@@ -13,10 +13,10 @@
         position: relative;
 }
 
-body { background: #fffbf0;}
+body {}
    
 body, select{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 select {
@@ -28,7 +28,6 @@ select {
     letter-spacing: 2px;
     background-color: #fff;
     border: none;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     color: #1a1818;
 }
 
@@ -67,7 +66,6 @@ h2 {text-align: center;font-size: 30px; margin-bottom: 25px;color: #1a1818;}
     padding: 1em;
     border: none;
     background: #fff;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     resize: none;
     font-weight: bold;
     font-family: 'Source Sans Pro', sans-serif;
