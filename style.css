@@ -13,7 +13,7 @@
         position: relative;
 }
 
-body {}
+body {background: #5454d4;}
    
 body, select{
     font-family: 'Poppins', sans-serif;
