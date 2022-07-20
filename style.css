@@ -21,32 +21,29 @@ body, select{
 
 select {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     width: 100%;
-    margin-bottom: 30px;
     height: 50px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     background-color: #fff;
     border: none;
-    color: #1a1818;
+    color: #000;
+    display: block;
+    margin: 0 auto 30px;
 }
 
 h2 {text-align: center;font-size: 30px; margin-bottom: 25px;color: #1a1818;}
    
 .copy-btn {
-    display: block;
-    margin: 40px auto 0;
     text-align: center;
-    background-color: #F6A7C1;
     line-height: 70px;
     color: #fff;
-    font-size: 30px;
-    text-decoration: none;
-    position: relative;
+    font-size: 25px;
     cursor: pointer;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     font-weight: bold;
+    border-radius: 35px;
 }
 
 .copy-btn:hover, 
