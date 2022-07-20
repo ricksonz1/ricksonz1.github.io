@@ -13,15 +13,15 @@
         position: relative;
 }
 
-body {background: #5454d4;}
+body {}
    
 body, select{
     font-family: 'Poppins', sans-serif;
 }
 
-.copy_con {
+/* .copy_con {
     background: #fff;
-}
+} */
 
 select {
     text-align: center;
@@ -41,7 +41,7 @@ h2 {text-align: center;font-size: 30px; margin-bottom: 25px;color: #fff;}
 .copy-btn {
     text-align: center;
     line-height: 70px;
-    color: #fff;
+    color: #5454d4;
     font-size: 25px;
     cursor: pointer;
     text-transform: uppercase;
@@ -54,11 +54,11 @@ h2 {text-align: center;font-size: 30px; margin-bottom: 25px;color: #fff;}
 .copy-btn:focus {
   animation: pulse 1s;
   box-shadow: 0 0 0 1em transparent;
-  background: #F3D1DC;
+  background: #5454d4;
 }
 
 @keyframes pulse {
-    0% {box-shadow: 0 0 0 0 #F3D1DC;}
+    0% {box-shadow: 0 0 0 0 #5454d4;}
   }
 
 .text-box textarea {
